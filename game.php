@@ -14,6 +14,7 @@
   
   echo "mau bermain? y/n\n";
   $mulai = trim(fgets(STDIN));
+  system('clear');
   
   if($mulai == "y"){
     echo "1. apa yg harus kamu lakukan sekarang?\n\n";
